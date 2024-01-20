@@ -1,0 +1,18 @@
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md font-semibold text-white;
+    @apply bg-purple-400 hover:bg-purple-500 focus:bg-purple-500;
+    @apply transition-all;
+  }
+  .btn-outline {
+    @apply px-4 py-2 rounded-md font-semibold text-black;
+    @apply bg-purple-400 bg-opacity-10 hover:bg-opacity-20 focus:bg-opacity-20;
+    @apply border border-purple-400;
+    @apply transition-all;
+  }
+  .btn-ghost {
+    @apply px-4 py-2 rounded-md font-semibold text-black;
+    @apply hover:border hover:border-purple-400;
+    @apply transition-all;
+  }
+}
